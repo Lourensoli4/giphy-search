@@ -2,6 +2,15 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Added:
+
+- Tailwind CSS for easier styling
+
+Features:
+
+- Searches for GIF'S as you type.
+- Displays the first 10 results from the Giphy API.
+
 ## Available Scripts
 
 In the project directory, you can run:
