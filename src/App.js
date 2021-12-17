@@ -42,13 +42,13 @@ function App() {
       <div className="flex flex-row flex-wrap justify-center max-w-7xl">
         {gifs.map((gif) => {
           return (
-            <div className="flex flex-row rounded-md">
+            <div className="flex flex-row justify-center rounded-md">
               <img
                 // title={gif.title}
                 // key={gif.id}
                 alt={gif.id}
                 src={gif.images.fixed_height.url}
-                className="p-4 transition duration-500 transform hover:scale-110"
+                className="w-11/12 h-auto p-4 transition duration-500 transform md:w-full hover:scale-110"
               ></img>
             </div>
           );
